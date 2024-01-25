@@ -1,0 +1,15 @@
+/* You can add global styles to this file, and also import other style files */
+@import "primeng/resources/themes/lara-dark-blue/theme.css";
+@import "primeng/resources/primeng.css";
+@tailwind components;
+@tailwind utilities;
+
+@layer reset, primeng;
+
+/* Reset CSS  */
+
+@layer reset {
+  * {
+    font-family: "Outfit", sans-serif;
+  }
+}
